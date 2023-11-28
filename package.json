@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "postinstall": "babel stories --out-dir dist --copy-files"
+    "postinstall": "babel stories --out-dir dist --copy-files",
+    "chromatic": "npx chromatic --project-token=chpt_efa6aed982b1750"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
     "@storybook/react": "^7.5.3",
     "@storybook/react-webpack5": "^7.5.3",
     "@storybook/testing-library": "^0.2.2",
+    "chromatic": "^9.1.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
