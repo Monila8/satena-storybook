@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from 'prop-types'
 
-export const InputSelect = ({ onChange, options }) => {
+export const InputSelect = ({ onChange, options, placeholder }) => {
   return (
     <select type="date" name="" id="" onChange={onChange}>
       {options.map(o => (

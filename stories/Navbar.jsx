@@ -6,7 +6,6 @@ import { Button } from './Button';
 import './navbar.css'
 
 export const Navbar = ({ links, theme, onChange }) => {
-
   return (
     <nav className={['navbar', `navbar--${theme}`].join(' ')}>
       <Logo />

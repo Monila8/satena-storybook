@@ -6,6 +6,6 @@ export default {
   component: Logo,
 };
 
-export const FullColor = () => <Logo type="fullColor" />;
-export const White = () => <Logo type="white" />;
-export const Small = () => <Logo type="small" />;
+export const FullColor = () => <Logo />;
+export const White = () => <Logo />;
+export const Small = () => <Logo />;

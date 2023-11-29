@@ -2,10 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export const FeaturedCard = ({ backgroundImage, headline, price, dates }) => {
-
   return (
-    <figure>
-      <img src={backgroundImage} />
+    <figure className='featured-card'>
+      <img src={backgroundImage} className='featured-card__image'/>
       <figcaption className='featured-card__figcaption'>
         {/* truncate */}
         <h6 className="featured-card__headline">

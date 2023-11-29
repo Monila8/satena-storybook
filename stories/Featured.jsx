@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FeaturedCard } from './FeaturedCard';
 
-export const Featured = ({ ...props }) => {
+export const Featured = (featuredCards) => {
   return (
     <section className='featured'>
-      <h6>Más vendidos</h6>
-      <h3>Destinos Favoritos</h3>
+      <h6 className='text__pre-headline'>Más vendidos</h6>
+      <h3 className='text__headline'>Destinos Favoritos</h3>
 
       <div className="features__container">
         {featuredCards.map(fc => (<FeaturedCard key={fc.headline} {...fc} />))}

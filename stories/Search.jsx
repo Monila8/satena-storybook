@@ -8,10 +8,10 @@ import { InputDate } from './InputDate';
 export const Search = ({ onSubmit }) => {
 
   return (
-    <main>
+    <main className='search'>
 
-      <h6>Vuelos</h6>
-      <h3>Busca tu vuelo</h3>
+      <h6 className='text__pre-headline'>Vuelos</h6>
+      <h3 className='text__headline'>Busca tu vuelo</h3>
 
       <form onSubmit={onSubmit} className='search__form'>
 
@@ -34,16 +34,16 @@ export const Search = ({ onSubmit }) => {
         </fieldset>
 
         <fieldset>
-          <InputSelect />
-          <InputSelect />
+          <InputDate placeholder="ida" />
+          <InputDate placeholder="regreso" />
         </fieldset>
 
         <fieldset>
-          <InputDate />
-          <InputDate />
+          <InputSelect placeholder="Número de pasajeros" />
+          <InputSelect placeholder="Categoría" />
         </fieldset>
 
-        <fieldset>
+        <fieldset className='search__call-to-action'>
           <Button size="xl" label="buscar" primary />
         </fieldset>
       </form>

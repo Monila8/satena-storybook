@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Button } from './Button';
 
-export const Hero = ({ ...props }) => {
+export const Hero = ({ }) => {
 
   return (
     <section className='hero'>
@@ -12,6 +12,9 @@ export const Hero = ({ ...props }) => {
           <p className="hero__subtitle">Conoce más sobre las nuestras políticas pensadas para tí </p>
           <Button label="Conoce más aquí" primary size="large" />
         </div>
+        <figure className="hero__figure">
+          <img src="" alt="" className="hero__image" />
+        </figure>
       </div>
     </section>
   );
