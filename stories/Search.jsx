@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button } from './Button';
+import { InputText } from './InputText';
+import { InputSelect } from './InputSelect';
+import { InputDate } from './InputDate';
 
 export const Search = ({ onSubmit }) => {
 
@@ -17,13 +20,24 @@ export const Search = ({ onSubmit }) => {
             </li>
             <li>
               <input type="radio" name='trip-radio' id="radio-round-trip" />
-              <label htmlFor="radio-round-trip">Ida y vuelta</label>
+              <label htmlFor="radio-round-trip">Ida y regreso</label>
             </li>
           </ul>
         </fieldset>
 
         <fieldset>
-          
+          <InputText placeholder="Desde" />
+          <InputText placeholder="Hacia" />
+        </fieldset>
+
+        <fieldset>
+          <InputSelect />
+          <InputSelect />
+        </fieldset>
+
+        <fieldset>
+          <InputDate />
+          <InputDate />
         </fieldset>
 
         <fieldset>
