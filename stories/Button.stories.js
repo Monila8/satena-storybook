@@ -31,7 +31,7 @@ export const Small = {
 
 // primary and secundary buttons
 
-export const Registrarse = {
+export const LogIn = {
   args: {
     size: 'large',
     label: 'Registrarse',
@@ -39,7 +39,7 @@ export const Registrarse = {
   },
 };
 
-export const ConoceLarge = {
+export const LearnMoreLarge = {
   args: {
     size: 'large',
     label: 'Conoce más aquí',
@@ -47,7 +47,7 @@ export const ConoceLarge = {
   },
 };
 
-export const BuscarLarge = {
+export const SearchLarge = {
   args: {
     size: 'xl',
     label: 'Buscar',
@@ -55,7 +55,7 @@ export const BuscarLarge = {
   },
 };
 
-export const BuscarSmall = {
+export const SearchSmall = {
   args: {
     size: 'small',
     label: 'Buscar',
