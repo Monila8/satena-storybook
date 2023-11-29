@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FeaturedCard } from './FeaturedCard';
 
-export const Featured = (featuredCards) => {
+export const Featured = ({ featuredCards }) => {
   return (
     <section className='featured'>
       <h6 className='text__pre-headline'>Más vendidos</h6>
@@ -16,7 +16,7 @@ export const Featured = (featuredCards) => {
 };
 
 Featured.propTypes = {
-  featuredCards: PropTypes.arrayOf(PropTypes.shape(FeaturedCard.propTypes))
+  featuredCards: PropTypes.arrayOf(PropTypes.shape(FeaturedCard.propTypes)).isRequired
 };
 
 Featured.defaultProps = {

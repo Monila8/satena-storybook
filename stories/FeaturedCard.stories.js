@@ -1,7 +1,7 @@
 import { FeaturedCard } from './FeaturedCard';
 
 export default {
-  title: 'FeaturedCard',
+  title: 'Elements/FeaturedCard',
   component: FeaturedCard,
   tags: ['autodocs'],
 
@@ -13,7 +13,7 @@ export default {
   },
 };
 
-export const Destiny1 = {
+export const Destination1 = {
   args: {
     backgroundImage: 'image_file',
     headline: 'La macarena',
@@ -22,20 +22,20 @@ export const Destiny1 = {
   },
 };
 
-export const Destiny2 = {
-    args: {
-      backgroundImage: 'image_file',
-      headline: 'Nuquí',
-      price: '$197.000',
-      dates: '5 nov - 13 dic',
-    },
-  };
+export const Destination2 = {
+  args: {
+    backgroundImage: 'image_file',
+    headline: 'Nuquí',
+    price: '$197.000',
+    dates: '5 nov - 13 dic',
+  },
+};
 
-  export const Destiny3 = {
-    args: {
-      backgroundImage: 'image_file',
-      headline: 'La macarena',
-      price: '$184.900',
-      dates: '5 nov - 13 dic',
-    },
-  };
+export const Destination3 = {
+  args: {
+    backgroundImage: 'image_file',
+    headline: 'La macarena',
+    price: '$184.900',
+    dates: '5 nov - 13 dic',
+  },
+};

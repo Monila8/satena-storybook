@@ -1,7 +1,7 @@
 import { CommentItem } from './CommentItem';
 
 export default {
-  title: 'CommentItem',
+  title: 'Elements/CommentItem',
   component: CommentItem,
   tags: ['autodocs'],
 

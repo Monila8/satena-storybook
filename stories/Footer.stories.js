@@ -4,13 +4,32 @@ export default {
   title: 'Components/Footer',
   component: Footer,
   parameters: {
-    layout: 'centered'
+    layout: 'centered',
+    backgrounds: {
+      default: 'twitter',
+      values: [
+        {
+          name: 'twitter',
+          value: '#00aced',
+        },
+        {
+          name: 'facebook',
+          value: '#3b5998',
+        },
+      ],
+    },
   },
 
-    tags: ['autodocs'],
+  tags: ['autodocs'],
 
   argTypes: {
-    socialNetworks: {control: 'array'}
   },
 };
 
+export const Standard = {
+  args: {
+    socialNetworks: [
+      { icon: 'instagram' }
+    ]
+  }
+}

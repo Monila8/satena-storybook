@@ -1,7 +1,7 @@
 import { Navbar } from './Navbar';
 
 export default {
-  title: 'Navbar',
+  title: 'Components/Navbar',
   component: Navbar,
   tags: ['autodocs'],
   argTypes: {
@@ -19,7 +19,7 @@ export const Labels = {
       { text: 'Check in', href: '#ref' },
       { text: 'Iniciar sesión', href: '#ref' },
     ],
-    onChange: () => {},
+    onChange: () => { },
     theme: 'light',
   },
 };

@@ -1,9 +1,14 @@
 import React from 'react';
-import {Logo} from './Logo';
+import { Logo } from './Logo';
 
 export default {
-  title: 'Logo',
+  title: 'Elements/Logo',
   component: Logo,
+  parameters: {
+    layout: 'centered',
+  },
+
+  tags: ['autodocs'],
 };
 
 export const FullColor = () => <Logo />;

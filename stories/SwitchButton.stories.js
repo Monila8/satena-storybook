@@ -1,7 +1,7 @@
 import { SwitchButton } from './SwitchButton';
 
 export default {
-  title: 'Example/SwitchButton',
+  title: 'Elements/SwitchButton',
   component: SwitchButton,
   parameters: {
     layout: 'centered',
