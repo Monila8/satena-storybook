@@ -7,7 +7,7 @@ import Logotype from "./imgs/Logotype.jpg"
 import Tagline_white from "./imgs/Tagline_white.jpg"
 import Tagline from "./imgs/Tagline.jpg"
 
-const Logo = ({ type }) => {
+export const Logo = ({ type }) => {
   return (
     <div className={`logo ${type}`}>
       {type === 'fullColor' && (
@@ -42,5 +42,3 @@ const Logo = ({ type }) => {
     </div>
   );
 };
-
-export default Logo;

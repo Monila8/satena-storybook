@@ -1,0 +1,32 @@
+.switch__label { 
+  position : relative ;
+  display : inline-block;
+  width : 40px;
+  height : 20px;
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+.switch__label::after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  top: 1px; 
+  left: 1px;
+  transition: all 0.3s;
+}
+
+.switch__input {
+  display: none;
+}
+
+.switch__input:checked + .switch__label::after {
+  left : 20px; 
+}
+
+.switch__input:checked + .switch__label {
+  background-color: #7983ff;
+}
