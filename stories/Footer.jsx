@@ -11,7 +11,7 @@ export const Footer = ({ socialNetworks }) => {
         <Logo />
         <div>
           <ul>
-            {socialnetworks.map(sn => (
+            {socialNetworks.map(sn => (
               <span>
                 {sn.icon}
               </span>
