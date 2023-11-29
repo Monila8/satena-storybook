@@ -1,7 +1,7 @@
 import { FeaturedCard } from './FeaturedCard';
 
 export default {
-  title: 'Components/FeaturedCard',
+  title: 'FeaturedCard',
   component: FeaturedCard,
   tags: ['autodocs'],
 
