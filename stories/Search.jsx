@@ -6,6 +6,9 @@ import { InputSelect } from './InputSelect';
 import { InputDate } from './InputDate';
 
 export const Search = ({ onSubmit }) => {
+  const selectOptions = [
+    {value: '1', label: '1'},
+  ]
 
   return (
     <main className='search'>
@@ -39,8 +42,8 @@ export const Search = ({ onSubmit }) => {
         </fieldset>
 
         <fieldset>
-          <InputSelect placeholder="Número de pasajeros" />
-          <InputSelect placeholder="Categoría" />
+          <InputSelect options={selectOptions} placeholder="Número de pasajeros" />
+          <InputSelect options={selectOptions} placeholder="Categoría" />
         </fieldset>
 
         <fieldset className='search__call-to-action'>

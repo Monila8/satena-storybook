@@ -12,3 +12,9 @@ export default {
   argTypes: {
   },
 };
+
+export const standard = {
+  args: {
+    
+  }
+}

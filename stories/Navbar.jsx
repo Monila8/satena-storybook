@@ -12,7 +12,7 @@ export const Navbar = ({ links, theme, onChange }) => {
       <ul className='navbar__list'>
         {links.map(link => (
           <li className='navbar__item'>
-            <a className='navbar__link' href={link.href} >{text}</a>
+            <a className='navbar__link' href={link.href} >{link.text}</a>
           </li>
         ))}
       </ul>
