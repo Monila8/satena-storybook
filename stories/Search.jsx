@@ -10,6 +10,9 @@ export const Search = ({ onSubmit }) => {
   return (
     <main>
 
+      <h6>Vuelos</h6>
+      <h3>Busca tu vuelo</h3>
+
       <form onSubmit={onSubmit} className='search__form'>
 
         <fieldset>
