@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './featuredCard.css'
 
 export const FeaturedCard = ({ backgroundImage, headline, price, dates }) => {
   return (
@@ -27,7 +28,7 @@ FeaturedCard.propTypes = {
 };
 
 FeaturedCard.defaultProps = {
-  backgroundImage: '',
+  backgroundImage: 'LaMacarena',
   headline: 'La macarena',
   price: '$130.000',
   dates: '5 nov - 13 dic'

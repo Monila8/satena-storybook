@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FeaturedCard } from './FeaturedCard';
+import './featured.css'
 
 export const Featured = ({ featuredCards }) => {
   return (

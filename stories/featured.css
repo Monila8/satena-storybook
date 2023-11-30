@@ -1,0 +1,32 @@
+.featured{
+
+}
+
+.text__pre-headline {
+    color: rgba(94, 98, 130, 1);
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    text-align: center;
+    top: 0;
+}
+
+.text__headline{
+    color: rgba(24, 30, 75, 1);
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+}
