@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import { Logo } from './Logo';
 import './footer.css'
 
-export const Footer = ({ socialNetworks }) => {
+export const Footer = ({ socialNetworks, darkMode }) => {
 
   return (
     <footer className='footer'>
       <div className="footer__container">
-        <Logo forceMedium />
+        <Logo forceMedium darkMode={darkMode} />
         <div>
           <ul>
             {socialNetworks.map(sn => (
