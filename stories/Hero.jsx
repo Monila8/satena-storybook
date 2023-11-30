@@ -19,11 +19,7 @@ export const Hero = ({}) => {
           turbulencias
           </h1>
           <p className="hero__subtitle">
-          CONOCE MÁS SOBRE
-          <br />
-          NUESTRAS POLÍTICAS
-          <br />
-          PENSADAS PARA TI{" "}
+          CONOCE MÁS SOBRE NUESTRAS POLÍTICAS PENSADAS PARA TI{" "} <br />
           </p>
           <Button label="Conoce más aquí" primary size="large" />
         </div>
