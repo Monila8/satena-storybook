@@ -6,7 +6,7 @@
   height: 32px;
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 719px) {
   .logo {
     position: relative;
     left: 60px;
@@ -21,7 +21,7 @@
   display: none
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 720px) {
   .logo .logo--force-medium {
     height: 44px
   }
@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 1120px) {
  .logo {
     height: 44px
   } 
@@ -46,9 +46,3 @@
     display: block;
   }
 }
-
-
-
-
-
-.logo__symbol { }

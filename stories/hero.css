@@ -1,0 +1,11 @@
+.hero {
+  background-image: url(assets/Decore.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  height: 748px;
+  width: 100%;
+}
+
+.hero__container {
+  margin: 0 80px;
+}
