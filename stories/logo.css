@@ -1,0 +1,54 @@
+.logo--dark-mode .logo__slogan path, .logo--dark-mode .logo__name path {
+  fill: white
+}
+
+.logo {
+  height: 32px;
+}
+
+@media screen and (max-width: 639px) {
+  .logo {
+    position: relative;
+    left: 60px;
+  }
+}
+
+.logo__slogan {
+  display: none;
+}
+
+.logo__name {
+  display: none
+}
+
+@media screen and (min-width: 640px) {
+  .logo .logo--force-medium {
+    height: 44px
+  }
+  
+  .logo__slogan.logo--force-medium {
+    display:block;
+  }
+
+  .logo__name.logo--force-medium {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 940px) {
+ .logo {
+    height: 44px
+  } 
+  .logo__slogan {
+    display: block;
+  }
+  .logo__name {
+    display: block;
+  }
+}
+
+
+
+
+
+.logo__symbol { }

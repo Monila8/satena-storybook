@@ -1,0 +1,21 @@
+.comment-item {
+  padding: 24px;
+  border-radius: 10px;
+  background: var(--Blanco, #FFF);
+  /* Tarjeta/Sombra Lightmode */
+  box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.05);
+  color: black;
+  width: 500px;
+  position: relative;
+}
+
+.comment-item__image {
+  background-color: #FFF;
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-50%) translateY(-50%);
+}

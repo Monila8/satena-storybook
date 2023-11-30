@@ -1,7 +1,7 @@
 import { Comments } from "./Comments";
 
 export default {
-  title: 'Comments',
+  title: 'Components/Comments',
   component: Comments,
   parameters: {
     layout: 'centered',
@@ -12,3 +12,9 @@ export default {
   argTypes: {
   },
 };
+
+export const standard = {
+  args: {
+
+  }
+}

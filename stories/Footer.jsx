@@ -8,13 +8,13 @@ export const Footer = ({ socialNetworks }) => {
   return (
     <footer className='footer'>
       <div className="footer__container">
-        <Logo />
+        <Logo forceMedium />
         <div>
           <ul>
             {socialNetworks.map(sn => (
-              <span>
+              <li>
                 {sn.icon}
-              </span>
+              </li>
             ))}
           </ul>
         </div>

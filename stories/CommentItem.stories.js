@@ -3,6 +3,10 @@ import { CommentItem } from './CommentItem';
 export default {
   title: 'Elements/CommentItem',
   component: CommentItem,
+  parameters: {
+    layout: 'centered',
+  },
+
   tags: ['autodocs'],
 
   argTypes: {
