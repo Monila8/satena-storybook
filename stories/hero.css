@@ -1,11 +1,78 @@
+/* Mobile First */
 .hero {
   background-image: url(assets/Decore.png);
   background-repeat: no-repeat;
   background-position: 100%;
-  height: 748px;
+  display: flex;
+  height: 320px;
   width: 100%;
 }
 
 .hero__container {
   margin: 0 80px;
+  display: flex;
+  align-items: center;
 }
+
+.hero__content {
+  color: rgba(24, 30, 75, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.hero__headline {
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero__subtitle {
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 24px 0;
+}
+
+.hero__image { 
+  height: auto;
+  object-fit: cover;
+  width: 267px;
+}
+
+/* Medium size: tablets */
+@media screen and (min-width: 720px) {
+  .hero__headline {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+  .hero__subtitle {
+    font-size: 14px;
+    margin: 32px 0;
+  }
+  .hero__image { 
+    height: auto;
+    object-fit: cover;
+    width: 695px;
+  }
+}
+
+/* Large size: Laptops, Desktops */
+@media screen and (min-width: 1120px) {
+  .hero__headline {
+    font-size: 80px;
+    line-height: 1.2;
+  }
+  .hero__subtitle {
+    font-size: 18px;
+    margin: 32px 0;
+  }
+  .hero__image { 
+    height: auto;
+    object-fit: cover;
+    width: 695px;
+  }
+}
+

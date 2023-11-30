@@ -24,19 +24,19 @@ export const Footer = ({ socialNetworks, darkMode }) => {
         </p>
 
         <p className='footer__text'>
-          lunes a viernes de 6:00am a 9:00pm.
+          Lunes a viernes de 6:00am a 9:00pm.
           <br />
-          sábados, domigos y festivos de 6:00am a 6:00pm
+          Sábados, domigos y festivos de 6:00am a 6:00pm
         </p>
 
         <p className='footer__text'>
           (601) 390 6962
           <br />
-          línea directa bogotá
+          Línea directa Bogotá
         </p>
 
         <p className='footer__text'>
-          avenida el dorado # 103-08 interior 11 bogotá-colombia.
+          Avenida El Dorado # 103-08 Interior 11 Bogotá-Colombia.
         </p>
 
       </div>
