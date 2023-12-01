@@ -99,4 +99,7 @@
     overflow: hidden;
     width: auto;
   }
+  .navbar__link {
+    font-size: 18px;
+  }
 }
