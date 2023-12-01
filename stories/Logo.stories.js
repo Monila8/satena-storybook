@@ -8,7 +8,6 @@ export default {
     layout: 'centered',
   },
 
-  tags: ['autodocs'],
 };
 
 export const FullColor = () => <Logo />;

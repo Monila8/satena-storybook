@@ -7,8 +7,4 @@ export default {
     layout: 'centered',
   },
 
-  tags: ['autodocs'],
-
-  argTypes: {
-  },
 };

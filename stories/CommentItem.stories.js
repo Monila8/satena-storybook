@@ -6,10 +6,6 @@ export default {
   parameters: {
     layout: "centered",
   },
-
-  tags: ["autodocs"],
-
-  argTypes: {},
 };
 
 export const Comment1 = {

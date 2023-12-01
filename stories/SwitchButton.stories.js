@@ -7,10 +7,6 @@ export default {
     layout: 'centered',
   },
 
-  tags: ['autodocs'],
-
-  argTypes: {
-  },
 };
 
 export const SwitchButtonDefault = {

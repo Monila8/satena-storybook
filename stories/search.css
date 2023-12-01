@@ -1,0 +1,29 @@
+.search {
+  box-sizing: border-box;
+}
+
+.search fieldset {
+  border: none;
+  width: 100%;
+}
+
+.search__one-way {
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 720px) {
+  .search {
+    width: 720px;
+  }
+  .search fieldset {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+
+@media screen and (min-width: 1120px) {
+  .search {
+    width: 1120px;
+  }
+}

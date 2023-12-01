@@ -19,10 +19,6 @@ export default {
     viewport: { viewports: customViewports },
   },
 
-  tags: ['autodocs'],
-
-  argTypes: {
-  },
 };
 
 export const standard = {
