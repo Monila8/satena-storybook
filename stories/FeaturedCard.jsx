@@ -5,7 +5,7 @@ import './featuredCard.css'
 export const FeaturedCard = ({ backgroundImage, headline, price, dates }) => {
   return (
     <figure className='featured-card'>
-      <img src={backgroundImage} className='featured-card__image'/>
+      <div className="featured-card__image" style={{backgroundImage: `url(${backgroundImage})`}}></div>
       <figcaption className='featured-card__figcaption'>
         {/* truncate */}
         <h6 className="featured-card__headline">
