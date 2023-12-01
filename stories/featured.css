@@ -1,6 +1,7 @@
 .featured {
   box-sizing: border-box;
-  padding: 60px
+  margin: 62px 0;
+  padding: 0 60px;
 }
 
 .featured .text__headline {
@@ -16,9 +17,10 @@
 
 @media screen and (min-width: 720px) {
   .featured {
-    margin: auto;
+    margin: 80px auto;
     width: 714px;
   }
+
   .featured .featured-card {
     margin-bottom: 30px;
   }
@@ -26,7 +28,11 @@
 
 @media screen and (min-width: 1120px) {
   .featured {
+    margin: 100px auto;
     width: 1120px;
   }
 
+  .featured .featured-card {
+    margin-bottom: 0px;
+  }
 }

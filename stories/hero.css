@@ -72,6 +72,7 @@
 @media screen and (min-width: 1120px) {
   .hero {
     background-size: 600px;
+    padding: 10% 0% 5%;
   }
 
   .hero__container {

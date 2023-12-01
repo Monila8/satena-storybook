@@ -1,6 +1,6 @@
 .search {
   box-sizing: border-box;
-  margin: auto;
+  margin: 100px auto;
   width: 350px;
 }
 
@@ -31,7 +31,6 @@
     justify-content: space-around;
   }
 }
-
 
 @media screen and (min-width: 1120px) {
   .search {
