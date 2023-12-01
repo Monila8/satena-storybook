@@ -8,24 +8,23 @@ import { InputDate } from "./InputDate";
 import "./search.css";
 import "./global.css";
 
-export const Search = ({ onSubmit, peopleOptions, categoryOptions }) => {
+export const Search = ({ onSubmit, peopleOptions, categoryOptions, theme }) => {
   return (
-    <main className="search">
+    <main className={`search search--${theme}`}>
       <h6 className="text__pre-headline">Vuelos</h6>
       <h3 className="text__headline">Busca tu vuelo</h3>
 
       <form onSubmit={onSubmit} className="search__form">
         <fieldset>
           <span className="search__trip-type">
-
-          <span className="search__one-way">
-            <input type="radio" name="trip-radio" id="radio-one-way" />
-            <label htmlFor="radio-one-way">Solo ida</label>
-          </span>
-          <span>
-            <input type="radio" name="trip-radio" id="radio-round-trip" />
-            <label htmlFor="radio-round-trip">Ida y regreso</label>
-          </span>
+            <span className="search__one-way">
+              <input type="radio" name="trip-radio" id="radio-one-way" />
+              <label htmlFor="radio-one-way">Solo ida</label>
+            </span>
+            <span>
+              <input type="radio" name="trip-radio" id="radio-round-trip" />
+              <label htmlFor="radio-round-trip">Ida y regreso</label>
+            </span>
           </span>
         </fieldset>
 
@@ -57,8 +56,12 @@ export const Search = ({ onSubmit, peopleOptions, categoryOptions }) => {
 
 Search.propTypes = {
   onSubmit: PropTypes.func,
+  theme: PropTypes.oneOf(["light", "dark"]),
+  peopleOptions: PropTypes.array,
+  categoryOptions: PropTypes.array,
 };
 
 Search.defaultProps = {
   onSubmit: () => {},
+  theme: "light",
 };

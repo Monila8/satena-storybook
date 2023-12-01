@@ -2,6 +2,7 @@
 
 :root {
   --gray-100: #A7B0BF;
+  --gray-200: #5e6282;
   --sub-texto: #5e6282;
   --dark-blue: #181e4b;
   --texto: #181e4b;
@@ -32,6 +33,10 @@ body {
   margin: auto;
   text-align: center;
   width: 250px;
+}
+
+.theme--dark .text__headline {
+  color: white
 }
 
 @media screen and (min-width: 720px) {

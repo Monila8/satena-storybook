@@ -2,9 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./featuredCard.css";
 
-export const FeaturedCard = ({ backgroundImage, headline, price, dates }) => {
+export const FeaturedCard = ({ backgroundImage, headline, price, dates, theme}) => {
   return (
-    <figure className="featured-card">
+    <figure className={`featured-card featured-card--${theme}`}>
       <div
         className="featured-card__image"
         style={{ backgroundImage: `url(${backgroundImage})` }}

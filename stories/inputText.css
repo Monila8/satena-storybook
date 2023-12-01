@@ -9,6 +9,26 @@
   box-sizing: border-box;
 }
 
+.search--dark .input {
+  background-color: transparent; 
+  border-color: var(--gray-200);
+  color: var(--gray-200) !important;
+  color-scheme: dark;
+}
+
+.search--dark .input::placeholder {
+  color: var(--gray-200) !important;
+}
+
+.search--dark .text__headline {
+  color: white;
+}
+
+/* 
+  Use pseudo element base64 to change the calendar icon
+  .search--dark .input::-webkit-calendar-picker-indicator 
+*/
+
 .input--select {
   width: 350px;
 }

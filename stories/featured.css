@@ -14,6 +14,9 @@
   justify-content: space-between;
   margin-top: 50px;
 }
+.featured--dark .text__headline {
+  color: white;
+}
 
 @media screen and (min-width: 720px) {
   .featured {

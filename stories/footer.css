@@ -11,8 +11,12 @@
   width: 324px;
 }
 
-.footer__social-network {
-  margin: 32px auto;
+.footer__social-networks {
+  margin: 20px auto;
+}
+
+.footer__text {
+  margin: 16px auto;
 }
 
 /* Medium size: tablets */
@@ -28,11 +32,8 @@
 @media screen and (min-width: 1120px) {
   .footer {
     font-size: 18px;
-    margin: 100px auto 62px;
+    margin: 100px auto 0px;
+    padding-bottom: 62px;
     width: 500px;
   }
-}
-
-.footer__text {
-  margin: 16px auto;
 }

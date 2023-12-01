@@ -21,6 +21,11 @@
   width: 95%;
 }
 
+.search--dark {
+  color: var(--gray-200);
+}
+
+
 @media screen and (min-width: 720px) {
   .search {
     width: 720px;
