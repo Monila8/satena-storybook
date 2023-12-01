@@ -10,7 +10,7 @@
 .comments__list {
   height: 300px;
   position: relative;
-  width: 100%;
+  width: 385px;
   margin: 50px auto;
 }
 
@@ -60,10 +60,14 @@
 }
 
 @media screen and (min-width: 720px) {
+  .comments__list {
+    width: 425px;
+  }
   .comments__slider {
     display: flex;
     position: relative;
     width: 650px;
+    margin: auto;
   }
 
   .comments__controls {
@@ -90,6 +94,9 @@
     text-align: left;
   }
 
+  .comments__list {
+    width: 650px;
+  }
   .comments__header,
   .comments__header .text__headline {
     margin-bottom: 60px;
