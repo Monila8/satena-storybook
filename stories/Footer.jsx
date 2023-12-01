@@ -8,7 +8,7 @@ export const Footer = ({ socialNetworks, darkMode }) => {
     <footer className="footer">
       <div className="footer__container">
         <Logo forceMedium darkMode={darkMode} />
-        <div>
+        <div className="footer__social-networks">
           <span>
             <svg
               width="62"
@@ -207,7 +207,7 @@ export const Footer = ({ socialNetworks, darkMode }) => {
         </div>
 
         <p className="footer__text">
-          <b>líneas de atención al cliente</b>
+          <b>Líneas de atención al cliente</b>
         </p>
 
         <p className="footer__text">

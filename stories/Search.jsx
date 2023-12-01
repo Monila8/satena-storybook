@@ -48,7 +48,7 @@ export const Search = ({ onSubmit, peopleOptions, categoryOptions }) => {
         </fieldset>
 
         <fieldset className="search__call-to-action">
-          <Button size="xl" label="buscar" primary />
+          <Button size="xl" label="Buscar" primary />
         </fieldset>
       </form>
     </main>
