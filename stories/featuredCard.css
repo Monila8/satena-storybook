@@ -3,7 +3,7 @@
   border-top-right-radius: 20px;
   flex-direction: column;
   height: 329px;
-  margin: 0;
+  margin: 0 auto;
   overflow: hidden;
   width: 270px;
 }
@@ -60,4 +60,14 @@
 
 .featured-card--dark .featured-card__dates {
   color: white;
+}
+
+
+@media screen and (min-width: 720px) {
+  .featured-card {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1120px) {
 }
