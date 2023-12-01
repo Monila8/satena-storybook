@@ -1,5 +1,7 @@
 .search {
   box-sizing: border-box;
+  margin: auto;
+  width: 350px;
 }
 
 .search fieldset {
@@ -11,10 +13,19 @@
   margin-right: 20px;
 }
 
+.search__form {
+  margin-top: 50px;
+}
+
+.search__trip-type {
+  width: 95%;
+}
+
 @media screen and (min-width: 720px) {
   .search {
     width: 720px;
   }
+
   .search fieldset {
     display: flex;
     justify-content: space-around;
@@ -24,6 +35,6 @@
 
 @media screen and (min-width: 1120px) {
   .search {
-    width: 1120px;
+    width: 740px;
   }
 }

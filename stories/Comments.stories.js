@@ -6,7 +6,6 @@ export default {
   parameters: {
     layout: "centered",
   },
-
 };
 
 export const standard = {
@@ -27,7 +26,7 @@ export const standard = {
           "https://cdn1.iconfinder.com/data/icons/emoticon-of-avatar-man/128/05_man_mocking_avatar_emoticon_smiley_people_user-512.png",
         first: false,
         comment:
-          "“Necesitaba cambiar las fechas de mi viaje, me comuniqué con Satena y fue fácil y rápido hacerlo. El mejor servicio al cliente que he usado”",
+          "“Fue un vuelo muy puntual, sin ningún problema al momento de comprar. Recomiendo completamente usar Satena para viajar”",
         author: "Andrés Guzmán",
         from: "Bogotá",
         to: "Nuquí",

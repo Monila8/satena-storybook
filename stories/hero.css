@@ -2,7 +2,7 @@
 .hero {
   background-image: url(assets/Decore.png);
   background-repeat: no-repeat;
-  background-position: 100%;
+  background-position: 100% 0;
   background-size: 200px;
   box-sizing: border-box;
   padding: 30% 0% 5%;

@@ -6,6 +6,11 @@
   width: 100vw;
 }
 
+.navbar__container {
+  margin: auto;
+  width: 350px;
+}
+
 .navbar .logo-wrapper {
   overflow: hidden;
   width: 90px;
@@ -36,6 +41,9 @@
 }
 
 @media screen and (min-width: 720px) {
+  .navbar__container {
+    width: 720px;
+  }
   .navbar__hamburger {
     display: none;
   }
@@ -61,6 +69,9 @@
 }
 
 @media screen and (min-width: 1120px) {
+  .navbar__container {
+    width: 1120px;
+  }
   .navbar__item {
     align-items: center;
     display: flex;

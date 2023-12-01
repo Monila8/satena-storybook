@@ -6,7 +6,7 @@ import { InputText } from "./InputText";
 import { InputSelect } from "./InputSelect";
 import { InputDate } from "./InputDate";
 import "./search.css";
-import "./global.css"
+import "./global.css";
 
 export const Search = ({ onSubmit, peopleOptions, categoryOptions }) => {
   return (
@@ -16,7 +16,7 @@ export const Search = ({ onSubmit, peopleOptions, categoryOptions }) => {
 
       <form onSubmit={onSubmit} className="search__form">
         <fieldset>
-          <span style={{textAlign: 'left'}}>
+          <span className="search__trip-type">
 
           <span className="search__one-way">
             <input type="radio" name="trip-radio" id="radio-one-way" />
@@ -27,8 +27,6 @@ export const Search = ({ onSubmit, peopleOptions, categoryOptions }) => {
             <label htmlFor="radio-round-trip">Ida y regreso</label>
           </span>
           </span>
-          <span></span>
-          <span></span>
         </fieldset>
 
         <fieldset>
