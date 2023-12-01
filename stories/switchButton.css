@@ -34,3 +34,11 @@
 .switch__input:checked + .switch__label {
   background-color: var(--dark-blue);
 }
+
+.switch--dark .switch__sun-path {
+  fill: var(--gray-200)
+} 
+
+.switch--dark .switch__moon-path {
+  fill: var(--gray-100)
+}

@@ -32,7 +32,7 @@ InputSelect.propTypes = {
   ),
 };
 
-InputSelect.defaultPropTypes = {
+InputSelect.defaultProps = {
   onChange: () => {},
   options: [{ value: "foo", label: "foo" }],
 };

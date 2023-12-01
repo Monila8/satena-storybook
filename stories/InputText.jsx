@@ -26,7 +26,7 @@ InputText.propTypes = {
   placeholder: PropTypes.string
 }
 
-InputText.defaultPropTypes = {
+InputText.defaultProps = {
   onChange: () => {},
   placeholder: 'placeholder',
 }

@@ -21,8 +21,10 @@ export const Navbar = ({ links, theme, onChange }) => {
             </li>
           ))}
         </ul>
-        <Button primary={false} label="Registrarse" size="large" />
-        <SwitchButton onChange={onChange} />
+        <span className="navbar__button-wrapper">
+        <Button primary={false} label="Registrarse" size="small" theme={theme} />
+        </span>
+        <SwitchButton onChange={onChange} theme={theme} />
         <div className="navbar__hamburger">
           <span>
             <svg
@@ -63,4 +65,5 @@ Navbar.defaultProps = {
     { text: "qux", href: "#ref" },
   ],
   onChange: () => {},
+  theme: 'light'
 };

@@ -56,6 +56,6 @@ Logo.propTypes = {
   darkMode: PropTypes.bool
 }
 
-Logo.defaultPropTypes = {
+Logo.defaultProps = {
   darkMode: false,
 }

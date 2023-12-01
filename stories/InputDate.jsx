@@ -26,7 +26,7 @@ InputDate.propTypes = {
   placeholder: PropTypes.string
 }
 
-InputDate.defaultPropTypes = {
+InputDate.defaultProps = {
   onChange: () => {},
   placeholder: 'placeholder',
 }

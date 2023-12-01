@@ -25,16 +25,11 @@
   text-decoration: none;
 }
 
+.navbar--dark .navbar__link {
+  color: white;
+}
+
 .navbar__link:hover {
-  text-decoration: underline;
-}
-
-.navbar--dark .navbar__list {
-  color: white;
-}
-
-.navbar--dark .navbar__list:hover {
-  color: white;
   text-decoration: underline;
 }
 
@@ -49,16 +44,20 @@
   justify-content: space-between;
 }
 
+.navbar__button-wrapper {
+  position: relative;
+  top: 5px;
+}
+.navbar--dark .navbar__hamburger path {
+  fill: white;
+}
+
 @media screen and (min-width: 720px) {
   .navbar__container {
     width: 720px;
   }
   .navbar__hamburger {
     display: none;
-  }
-
-  .navbar--dark .navbar__hamburger path {
-    fill: white
   }
 
   .switch {
@@ -79,6 +78,9 @@
     align-items: center;
     display: flex;
     padding: 5px 13px;
+  }
+  .navbar__link {
+    font-size: 14px;
   }
 }
 

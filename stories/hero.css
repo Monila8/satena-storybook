@@ -9,10 +9,14 @@
   width: 100vw;
 }
 
+.hero.hero--dark {
+  background-image: url(assets/Decore_dark.png);
+}
+
 .hero__container {
   align-items: center;
   background-image: url(assets/traveller.png);
-  background-position-x: 120%;
+  background-position-x: 110%;
   background-repeat: no-repeat;
   background-size: 260px;
   display: flex;
@@ -33,7 +37,7 @@
   margin: 0;  
 }
 
-.hero__headline--dark {
+.hero--dark .hero__headline {
   color: white;
 }
 
@@ -44,7 +48,7 @@
   margin: 24px 0;
 }
 
-.hero__subtitle--dark {
+.hero--dark .hero__subtitle {
   color: white;
 }
 

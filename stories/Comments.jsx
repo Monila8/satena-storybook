@@ -43,6 +43,7 @@ export const Comments = ({ data, theme }) => {
             {comm.map((c, i) => (
               <div className="comments__item" key={c.author}>
                 <CommentItem
+                theme={theme}
                   avatarURL={c.avatarURL}
                   author={c.author}
                   from={c.from}
@@ -74,6 +75,10 @@ export const Comments = ({ data, theme }) => {
   );
 };
 
-Comments.propTypes = {};
+Comments.propTypes = {
+  theme: PropTypes.oneOf(['light', 'dark'])
+};
 
-Comments.defaultProps = {};
+Comments.defaultProps = {
+  theme: 'light'
+};

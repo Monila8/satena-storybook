@@ -22,5 +22,6 @@ export default {
 };
 
 export const standard = {
-  args: {}
+  args: {
+  }
 }

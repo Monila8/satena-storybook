@@ -1,11 +1,15 @@
 .comments__header {
   margin-bottom: 70px;
-  text-align: center;  
+  text-align: center;
+}
+
+.comments--dark .text__headline {
+  color: white;
 }
 
 .comments__list {
   height: 300px;
-  position: relative;  
+  position: relative;
   width: 100%;
 }
 
@@ -49,6 +53,10 @@
   background: var(--dark-blue);
 }
 
+.comments--dark .comments__indicator-item--active {
+  background-color: white;
+}
+
 @media screen and (min-width: 720px) {
   .comments__slider {
     display: flex;
@@ -88,9 +96,6 @@
 
   .comments--dark .text__pre-headline {
     color: var(--gray-200);
-  }
-  .comments--dark .text__headline {
-    color: white;
   }
 
   .comments__header {

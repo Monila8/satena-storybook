@@ -35,6 +35,11 @@
   color: var(--Texto, #181E4B);
 }
 
+.button--dark.button--secondary {
+  border-color: white;
+  color: white;
+}
+
 .button--secondary:hover {
   border: 1.5px solid var(--Texto, #181E4B);
 }
