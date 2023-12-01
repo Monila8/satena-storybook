@@ -1,39 +1,35 @@
-import { CommentItem } from './CommentItem';
+import { CommentItem } from "./CommentItem";
 
 export default {
-  title: 'Elements/CommentItem',
+  title: "Elements/CommentItem",
   component: CommentItem,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
 
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 
-  argTypes: {
-    imageSource: { control: 'text' },
-    comment: { control: 'text' },
-    author: { control: 'text' },
-    from: { control: 'text' },
-    to: { control: 'text' },
-  },
+  argTypes: {},
 };
 
 export const Comment1 = {
   args: {
-    imageSource: 'image_file',
-    comment: 'Comment',
-    author: 'Nombre del autor',
-    from: 'De',
-    to: 'Para',
+    avatarURL:"https://cdn1.iconfinder.com/data/icons/emoticon-of-avatar-man/128/05_man_mocking_avatar_emoticon_smiley_people_user-512.png",
+    first: true,
+    comment: "“Necesitaba cambiar las fechas de mi viaje, me comuniqué con Satena y fue fácil y rápido hacerlo. El mejor servicio al cliente que he usado”",
+    author: "Erick Padilla",
+    from: "Medellín",
+    to: "Caracas",
   },
 };
 
 export const Comment2 = {
-    args: {
-      imageSource: 'image_file',
-      comment: 'Comment',
-      author: 'Nombre del autor',
-      from: 'De',
-      to: 'Para',
-    },
-  };
+  args: {
+    avatarURL:"https://cdn1.iconfinder.com/data/icons/emoticon-of-avatar-man/128/05_man_mocking_avatar_emoticon_smiley_people_user-512.png",
+    first: false,
+    comment: "“Necesitaba cambiar las fechas de mi viaje, me comuniqué con Satena y fue fácil y rápido hacerlo. El mejor servicio al cliente que he usado”",
+    author: "Andrés Guzmán",
+    from: "Bogotá",
+    to: "Nuquí",
+  },
+};

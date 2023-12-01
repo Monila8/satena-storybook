@@ -3,10 +3,10 @@
   background-image: url(assets/Decore.png);
   background-repeat: no-repeat;
   background-position: 100%;
-    background-size: 200px;
+  background-size: 200px;
+  box-sizing: border-box;
   padding: 30% 0% 5%;
   width: 100vw;
-  box-sizing: border-box;
 }
 
 .hero__container {
@@ -14,10 +14,10 @@
   display: flex;
   background-image: url(assets/traveller.png);
   background-repeat: no-repeat;
-  background-position-x: 120% ;
-    background-size: 260px;
+  background-position-x: 120%;
+  background-size: 260px;
+  margin: auto;
   width: 358px;
-  margin:auto;
 }
 
 .hero__content {
@@ -44,7 +44,7 @@
 @media screen and (min-width: 720px) {
   .hero {
     background-size: 320px;
-  padding: 15% 0% 5%;
+    padding: 15% 0% 5%;
   }
 
   .hero__container {
@@ -74,7 +74,6 @@
     background-size: 600px;
   }
 
-
   .hero__container {
     height: 748px;
     width: 1120px;
@@ -103,4 +102,3 @@
     width: 100%;
   }
 }
-

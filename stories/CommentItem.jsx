@@ -1,34 +1,55 @@
 import PropTypes from "prop-types";
 import React from "react";
-import './commentItem.css'
+import "./commentItem.css";
 
-export const CommentItem = ({ imageSource, comment, author, from, to }) => {
+export const CommentItem = ({
+  first,
+  avatarURL,
+  comment,
+  author,
+  from,
+  to,
+}) => {
   return (
-    <div className="comment-item">
-      <img src="https://cdn1.iconfinder.com/data/icons/emoticon-of-avatar-man/128/05_man_mocking_avatar_emoticon_smiley_people_user-512.png" alt="" className="comment-item__image" />
-      <p className="comment-item__text">{comment}</p>
-      <p className="comment-item__author">{author}</p>
-      <p>
-        <span>{from}</span>
-        <span className="comment-item__icon"></span>
-        <span>{to}</span>
-      </p>
-    </div>
-  )
-}
+    <figure
+      className={["comment-item", first && "comment-item--first"].join(" ")}
+    >
+      <img
+        src={avatarURL}
+        alt=""
+        className="comment-item__image"
+      />
+      <figcaption className="comment-item__caption">
+        <p className="comment-item__text">{comment}</p>
+        <div className="comment-item__author-and-destination">
+          <p className="comment-item__author">
+            <b>{author}</b>
+          </p>
+          <p className="comment-item__destination">
+            <span>{from}</span>
+            <span className="comment-item__icon"></span>
+            <span>{to}</span>
+          </p>
+        </div>
+      </figcaption>
+    </figure>
+  );
+};
 
 CommentItem.propTypes = {
-  imageSource: PropTypes.string,
+  boolean: PropTypes.bool,
+  avatarURL: PropTypes.string,
   comment: PropTypes.string,
   author: PropTypes.string,
   from: PropTypes.string,
   to: PropTypes.string,
-}
+};
 
 CommentItem.defaultPropTypes = {
-  imageSource: '',
-  comment: '',
-  author: '',
-  from: '',
-  to: '',
-}
+  boolean: false,
+  avatarURL: "",
+  comment: "",
+  author: "",
+  from: "",
+  to: "",
+};
