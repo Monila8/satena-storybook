@@ -1,10 +1,11 @@
 .featured-card {
-  width: 270px;
-  height: 329px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   flex-direction: column;
+  height: 329px;
+  margin: 0;
   overflow: hidden;
+  width: 270px;
 }
 
 .featured-card__image {

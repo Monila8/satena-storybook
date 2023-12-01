@@ -1,27 +1,38 @@
 import { Featured } from "./Featured";
 
 export default {
-  title: 'Components/Featured',
+  title: "Components/Featured",
   component: Featured,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
 
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 
-  argTypes: {
-  },
+  argTypes: {},
 };
 
 export const standard = {
   args: {
     featuredCards: [
       {
-        backgroundImage: 'image_file',
-        headline: 'La macarena',
-        price: '$130.000',
-        dates: '5 nov - 13 dic',
-      }
-    ]
-  }
-}
+        backgroundImage: "https://picsum.photos/300",
+        headline: "La macarena",
+        price: "$130.000",
+        dates: "5 nov - 13 dic",
+      },
+      {
+        backgroundImage: "https://picsum.photos/300",
+        headline: "La macarena",
+        price: "$130.000",
+        dates: "5 nov - 13 dic",
+      },
+      {
+        backgroundImage: "https://picsum.photos/300",
+        headline: "La macarena",
+        price: "$130.000",
+        dates: "5 nov - 13 dic",
+      },
+    ],
+  },
+};
