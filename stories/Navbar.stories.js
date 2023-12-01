@@ -1,25 +1,25 @@
-import { Navbar } from './Navbar';
+import { Navbar } from "./Navbar";
 
 export default {
-  title: 'Components/Navbar',
+  title: "Components/Navbar",
   component: Navbar,
-  tags: ['autodocs'],
-  argTypes: {
-    links: { control: 'array' },
-    onChange: { action: 'onChange' },
-    theme: { control: { type: 'select', options: ['light', 'dark'] } },
+  parameters: {
+    layout: "centered",
   },
+  tags: ["autodocs"],
+
+  argTypes: {},
 };
 
 export const Labels = {
   args: {
     links: [
-      { text: 'Destinos', href: '#ref' },
-      { text: 'Vuelos', href: '#ref' },
-      { text: 'Check in', href: '#ref' },
-      { text: 'Iniciar sesión', href: '#ref' },
+      { text: "Destinos", href: "#ref" },
+      { text: "Vuelos", href: "#ref" },
+      { text: "Check in", href: "#ref" },
+      { text: "Iniciar sesión", href: "#ref" },
     ],
-    onChange: () => { },
-    theme: 'light',
+    onChange: () => {},
+    theme: "light",
   },
 };
