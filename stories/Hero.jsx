@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import { Button } from "./Button";
 import "./hero.css";
 
-export const Hero = ({}) => {
+export const Hero = ({theme}) => {
   return (
-    <section className="hero">
+    <section className={`hero hero${theme}`}>
         <div className="hero__container">
           <div className="hero__content">
             <h1 className="hero__headline">

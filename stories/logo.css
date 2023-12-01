@@ -39,9 +39,11 @@
  .logo {
     height: 44px
   } 
+
   .logo__slogan {
     display: block;
   }
+  
   .logo__name {
     display: block;
   }
