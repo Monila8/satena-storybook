@@ -20,6 +20,11 @@
   padding: 32px 24px;
 }
 
+.featured-card__svg {
+  position: relative;
+  top: 3px;
+}
+
 .featured-card__headline {
   color: #181e4b;
   display: flex;

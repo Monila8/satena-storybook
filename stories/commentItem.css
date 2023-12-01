@@ -51,6 +51,12 @@
   font-size: 12px;
 }
 
+.comment-item__icon {
+  position: relative;
+  top: 6px;
+  margin: 0 5px;
+}
+
 @media screen and (min-width: 720px) {
   .comment-item {
     width: 500px;
