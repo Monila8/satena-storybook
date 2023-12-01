@@ -25,10 +25,6 @@
   max-width: 205px;
 }
 
-.hero__content--dark {
-  color: white;
-}
-
 .hero__headline {
   font-family: "Inter-ExtraBold", Helvetica;
   font-size: 30px;
@@ -37,11 +33,19 @@
   margin: 0;  
 }
 
+.hero__headline--dark {
+  color: white;
+}
+
 .hero__subtitle {
   font-family: "Inter-SemiBold", Helvetica;
   font-size: 14px;
   font-weight: 600;
   margin: 24px 0;
+}
+
+.hero__subtitle--dark {
+  color: white;
 }
 
 /* Medium size: tablets */

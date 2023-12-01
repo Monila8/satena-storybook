@@ -4,6 +4,14 @@
   width: 350px;
 }
 
+.search--dark .text__pre-headline {
+  color: var(--gray-200);
+}
+
+.search--dark .text__headline {
+  color: white;
+}
+
 .search fieldset {
   border: none;
   width: 100%;

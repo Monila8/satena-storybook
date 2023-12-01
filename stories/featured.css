@@ -14,6 +14,11 @@
   justify-content: space-between;
   margin-top: 50px;
 }
+
+.featured--dark .text__pre-headline {
+  color: var(--gray-200);
+}
+
 .featured--dark .text__headline {
   color: white;
 }

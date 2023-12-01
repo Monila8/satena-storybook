@@ -86,6 +86,13 @@
     text-align: left;
   }
 
+  .comments--dark .text__pre-headline {
+    color: var(--gray-200);
+  }
+  .comments--dark .text__headline {
+    color: white;
+  }
+
   .comments__header {
     margin-right: 98px;
   }

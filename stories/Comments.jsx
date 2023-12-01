@@ -4,7 +4,7 @@ import { CommentItem } from "./CommentItem";
 import "./comments.css";
 import "./global.css";
 
-export const Comments = ({ data }) => {
+export const Comments = ({ data, theme }) => {
   const [comm, setComm] = useState(data);
   const [indicator, setIndicator] = useState(false);
 
@@ -14,7 +14,7 @@ export const Comments = ({ data }) => {
   };
 
   return (
-    <section className="comments">
+    <section className={`comments comments--${theme}`}>
       <div className="comments__container">
         <header className="comments__header">
           <h6 className="text__pre-headline">Testimonios</h6>

@@ -29,6 +29,15 @@
   text-decoration: underline;
 }
 
+.navbar--dark .navbar__list {
+  color: white;
+}
+
+.navbar--dark .navbar__list:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .navbar__list,
 .navbar .button,
 .navbar .switch {
@@ -47,6 +56,11 @@
   .navbar__hamburger {
     display: none;
   }
+
+  .navbar--dark .navbar__hamburger path {
+    fill: white
+  }
+
   .switch {
     padding: 10px 25px;
   }
